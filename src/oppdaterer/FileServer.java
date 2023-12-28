@@ -29,7 +29,7 @@ public class FileServer
     
     try
     {
-      System.out.println("start");
+      System.out.println("Starter filserver for DeskSim oppdateringer");
       ServerSocket serverSocket = new ServerSocket(5079);
       while (run)
       {
